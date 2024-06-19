@@ -5,7 +5,7 @@ import time
 url='http://192.168.1.36/cam-lo.jpg'
 
 fps = 1  # Lưu ảnh mỗi giây
-count = 225
+count =0
 
 while True:
     imgResp=urllib.request.urlopen(url)
